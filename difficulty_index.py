@@ -5,6 +5,7 @@ Created on Tue May 26 18:46:31 2020
 @author: HELLSHIELD
 """
 import pandas as pd
+import sys
 import numpy as np
 from scipy import stats
 import warnings
@@ -295,4 +296,4 @@ def main(dataset):
     print(result)
 if __name__ == "__main__":
         warnings.filterwarnings("ignore")
-        main('dataset.csv')
+        main(sys.argv[1])
