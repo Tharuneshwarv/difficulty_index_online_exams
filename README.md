@@ -15,11 +15,10 @@ constraint if not satisfied then it is "Hard". If time taken is less and mark_ob
 else if mark_obtained is around average and hint is used it "Hard" else dificulty index is "Hard" . If mark_obtaind is less in time
 duration then it considered as "Hard". Following pattern is followed to find difficulty index for other question types.
   After gettting difficulty level of every question , for every question type difficulty level is present in different data frame ,it
-joined is to make a single dataframe and sorted based on challenge id(challen_id). Resultant dataframe consists of challenge id, challenge
-id , difficulty index and it saved to file name called "Result.csv"
+joined is to make a single dataframe and sorted based on challenge id(challen_id). Resultant dataframe consists of challenge id, challenge id , difficulty index and it saved to file name called "Result.csv"
 
-mean : marks_obtained,no.of times compiled, duration
-mode : hint,answered
+mean : marks_obtained,no.of times compiled, duration.
+mode : hint,Answered.
 
 Usage :
 
