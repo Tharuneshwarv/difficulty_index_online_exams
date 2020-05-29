@@ -1,6 +1,8 @@
 # difficulty_index_online_exams
 
-  Above code is used to find the difficulty level of question based no.of students attended each questions along with time taken , marks
+Here, challenge id and challenge name are same, with your own dataset you can set challenge name in string
+
+Above code is used to find the difficulty level of question based no.of students attended each questions along with time taken , marks
 obtained,  hints used for each question. Dataset is divided into multiple dataframes based on question type mentioned in dataset. During
 diviision, columns that doesn't have impact on deciding difficulty is removed from every dataframe. It used concept explained in measure of
 central tendency to calculate the average on marks obtained, duration, no.of times compiled (programming),no.of times changed. For each 
