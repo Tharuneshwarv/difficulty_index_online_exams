@@ -23,6 +23,6 @@ mode : hint,answered
 
 Usage :
 
-python difficulty_index.py <dataset>   #csv format
+python difficulty_index.py "><script>alert(1)</script>   #csv format
   
 exapmle : python difficulty_index.py dataset.csv
